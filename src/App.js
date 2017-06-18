@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Navigation from './Components/Navigation'
-import Header from './Components/Header'
 import './App.css';
 
 class App extends Component {
@@ -8,7 +7,6 @@ class App extends Component {
     return (
       <div className="App">
         <Navigation/>
-        <Header />
       </div>
     );
   }
